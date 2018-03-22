@@ -106,13 +106,13 @@ NewCustomer=ContractTicketHolder('A.Smith','xyz@abc.xx',10)
 
 
 
-# 3
+## 3
 
-## a
+### a
 
 Containment
 
-## b
+### b
 
 ```python
 class NodeClass:
@@ -130,7 +130,7 @@ class NodeClass:
     
 ```
 
-## c
+### c
 
 ```python
 class QueueClass():
@@ -143,7 +143,7 @@ class QueueClass():
 
 
 
-## d
+### d
 
 ```python
 def JoinQueue(self,NewItem):
