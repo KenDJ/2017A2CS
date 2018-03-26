@@ -101,8 +101,10 @@ class toy:
 class vehicle(toy):
     
 	def __init__(self,n,i,p,m,t,h,l,w):
-        				toy.__init__(self,n,i,p,m):
-        				self.__type=t
+        				
+		toy.__init__(self,n,i,p,m):
+        				
+		self.__type=t
        
 		self.__height=h
 
@@ -134,7 +136,53 @@ try:
 ##2.6
 
 ###
+```python
+vehicle=[ ]
+computergame=[ ]
+vehicle.append('red sports car','RSC13',15.00,6,'car',3.3,12.1,0.08)
+```
 
+##2.7
+
+###
+```python
+def printdetails(id):
+       i=0
+       while toy[i].id!=id:
+            i+=1
+       Toy[i].printdetails()
+```
+
+##2.8
+
+###
+```python
+def discount(n):
+	n=n/100
+        for i in range(len(toy)):
+		toy[i].prince=toy[i].price*n
+```
+
+##2.9
+
+###
+a bubble sort changes the order of the list one item and another by comparing the two near once at a time.
+
+a insertion sort does it by finding the approperiate position to insert the item
+
+##2.10
+
+###
+```python
+def sort():
+	for i in range(1,len(toys)):
+            itemtobeinserted=toy[i]
+            c=i-1
+            while itemtobeinserted.price<toy[c].price and c>0:
+                toy[c+1]=toy[c]
+                c-=1
+    	    toy[c+1]=itemtobeinserted
+```python
 
 
     
