@@ -15,36 +15,36 @@
 |---------------------|
 |Constructor()        |
 |GetName()            |
-|GetID()              |  ¡û¡û¡û¡û¡û¡û¡û¡û¡û¡û
-|GetPrice()           |			    |			
-|GetMinimum_age()     |                     |
-|SetName()            |                     |
-|SetID()              |                     |
-|SetPrice()           |                     |
-|SetMinimum_age()     |                     |
-|PrintDetails()       |                     |
-                                            |
-                                            |
-|Computer Game        |                     |
-|---------------------|                     |
-|Category : STRING    |                     |
-|Console : STRING     |                     |
-|---------------------|    --------|        |
-|Constructor()        |            |        |
-|GetCategory()        |            |        |
-|SetCategory()        |            |        |
-|SetConsole()         |            |        |
-|GetConsole()         |            |        |
-                                   |	    |
-                                   |--------|
-|Vehicle              |            |
-|---------------------|            |
-|Type         : STRING|            |
-|Height      : INTEGER|            |
-|Length     : INTEGER |            |
-|Weight     :  FLOAT  |            |
-|---------------------|            |
-|Constructor()        |     -------|
+|GetID()              |  
+|GetPrice()           |			    			
+|GetMinimum_age()     |                     
+|SetName()            |                     
+|SetID()              |                     
+|SetPrice()           |                     
+|SetMinimum_age()     |                     
+|PrintDetails()       |                     
+                                            
+                                            
+|Computer Game        |                     
+|---------------------|                     
+|Category : STRING    |                     
+|Console : STRING     |                    
+|---------------------|            
+|Constructor()        |                    
+|GetCategory()        |                    
+|SetCategory()        |                    
+|SetConsole()         |                    
+|GetConsole()         |                    
+                                   	   
+                                   
+|Vehicle              |            
+|---------------------|            
+|Type         : STRING|            
+|Height      : INTEGER|            
+|Length     : INTEGER |            
+|Weight     :  FLOAT  |            
+|---------------------|            
+|Constructor()        |    
 |Set/GetType()        |
 |Set/GetHeight()      |
 |Set/GetLength()      |
